@@ -29,33 +29,60 @@
 <div class="container py-3">
   <div>
     <h1>Want to know more? Reach out to us!</h1>
-    <button type="button" id="myBtn" class="btn btn-primary mt-4">Contact Us</button>
+    <button type="button" class="btn btn-primary mt-4 mb-4" data-bs-toggle="modal" data-bs-target="#exampleModal">
+  Contact us
+</button>
   </div>
-  <div id="myModal" class="modal modal-dialog modal-dialog-centered"> 
-    <!-- Modal content -->
+	<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
     <div class="modal-content">
-      <form action="" method="get" class="form-example">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Contact Us</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <form action="" method="get" class="form-example">
         <div class="container px-4">
           <div class="form-example mt-4">
-            <label for="name">Your name:</label>
-            <input type="text" name="name" id="name" class="ms-3" required />
+            <label for="name">Name:</label>
+            <input type="text" name="name" id="name" style="margin-left: 80px" required />
           </div>
+			
           <div class="form-example mt-4">
-            <label for="email">Your email: </label>
-            <input type="email" name="email" id="email" class="ms-3" required />
+            <label for="email">Company: </label>
+            <input type="email" name="email" id="email" style="margin-left: 57px" required />
           </div>
+			
+			<div class="dropdown mt-4">
+				            <label for="email">Purpose: </label>
+  <button class="btn btn-secondary dropdown-toggle text-bg-primary" style="margin-left: 68px" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+    Select purpose
+  </button>
+  <ul class="dropdown-menu">
+    <li><p>Sponsorships</p></li>
+    <li><p>Partnerships and collaboration</p></li>
+    <li><p>Volunteering (teaching)</p></li>
+	  <li><p>Business opportunities</p></li>
+	  <li><p>Others</p></li>
+  </ul>
+</div>
+			
           <div class="form-example mt-4">
-            <label for="email">Your number: </label>
-            <input type="text" name="number" id="number" required />
+            <label for="email">Message for us: </label>
+            <input type="text" name="number" id="number" style="margin-left: 20px" required />
           </div>
         </div>
       </form>
-      <div class="d-flex justify-content-around mt-4 mb-4">
-        <button type="button" class="close btn btn-danger">Close</button>
-        <button type="button" class="submit btn btn-success">Submit</button>
+      </div>
+      <div class="modal-footer justify-content-around">
+        <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Submit</button>
       </div>
     </div>
   </div>
+</div>
+	
+  
 </div>
 <hr>
 <footer class="text-center" style="background-color: #FFC2D1">
@@ -92,46 +119,6 @@
     <p class="mb-0">Copyright © InspireArtCo. All rights reserved.</p>
   </div>
 </footer>
-<script>
-// Get the modal
-var modal = document.getElementById("myModal");
-
-// Get the button that opens the modal
-var btn = document.getElementById("myBtn");
-
-// Get the <button> element that closes the modal
-var span = document.getElementsByClassName("close")[0];
-
-// Get the <button> element that submits the modal
-var submit = document.getElementsByClassName("submit")[0];
-
-// When the user clicks the button, open the modal 
-btn.onclick = function() {
-  modal.style.display = "block";
-}
-
-// When the user clicks on <span> (x), close the modal
-span.onclick = function() {
-  modal.style.display = "none";
-}
-
-submit.onclick = function() {
-  modal.style.display = "none";
-}
-// When the user clicks anywhere outside of the modal, close it
-window.onclick = function(event) {
-  if (event.target == modal) {
-    modal.style.display = "none";
-  }
-}
-        
-// When the user clicks anywhere outside of the modal, close it
-window.onclick = function (event) {
-            if (event.target == modal) {
-                modal.style.display = "none";
-            }
-        }
-</script> 
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
 <script src="js/jquery-3.4.1.min.js"></script> 
 <!-- Include all compiled plugins (below), or include individual files as needed --> 
