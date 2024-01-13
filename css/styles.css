@@ -1,0 +1,21 @@
+/* CSS Document */
+
+html {
+   height: 100%;
+}
+
+body {
+   min-height: 100%;
+}
+
+hr {
+  margin: 0 !important;
+}
+
+.nav-link {
+	color: black;
+}
+
+.nav-link.active {
+	color: blue !important;
+}
