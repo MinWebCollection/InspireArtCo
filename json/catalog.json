@@ -1,0 +1,45 @@
+{"catalog": [
+  {
+    "type": "Vibrant Finger Painting",
+    "title": "Joyful Exploration",
+    "artist": "Mia",
+    "backstory": "Created by 8-year-old Mia who loves the sensory experience of finger painting. This artwork is her expression of a happy day, with bold primary colors representing her joyful and vibrant view of the world.",
+    "dimensions": "1500x1500"
+  },
+  {
+    "type": "Simple Watercolor Landscape",
+    "title": "Serene Valley",
+    "artist": "Alex",
+    "backstory": "Painted by 10-year-old Alex, who has Down syndrome. Alex enjoys the tranquility of nature. This landscape, with its soft, dreamy hues, is inspired by his favorite park, where he feels most at peace and connected to the environment.",
+    "dimensions": "800x800"
+  },
+  {
+    "type": "Abstract Collage",
+    "title": "Texture Symphony",
+    "artist": "Sarah",
+    "backstory": "Created by 7-year-old Sarah, who has sensory processing disorder. Sarah finds comfort and joy in different textures. This textile art work is made from cut-out paper and fabric which is her way of harmonizing the various textures she encounters in her daily life.",
+    "dimensions": "1500x1500"
+  },
+  {
+    "type": "Expressive Clay Sculpture",
+    "title": "Embracing Imperfections",
+    "artist": "Hannah",
+    "backstory": "Sculpted by 11-year-old Hannah, who has a physical disability. Hannah's sculpture, with its simple yet expressive form, symbolizes her journey of self-acceptance and finding beauty in imperfections.",
+    "dimensions": "1500x1500"
+  },
+  {
+    "type": "Simple Watercolor Landscape",
+    "title": "Tranquil Haven",
+    "artist": "Alex",
+    "backstory": "Crafted by the talented 10-year-old artist Alex, who has a unique perspective on the world due to Down syndrome. Alex finds solace in the beauty of nature, particularly his cherished park. This watercolor masterpiece, titled \"Tranquil Haven,\" captures the essence of his favorite outdoor sanctuary.",
+    "dimensions": "800x800"
+  },
+  {
+    "type": "Mixed Media Piece",
+    "title": "Nature's Mosaic",
+    "artist": "Ethan",
+    "backstory": "Assembled by 12-year-old Ethan, who is visually impaired. Ethan loves exploring different materials he can feel. This mixed media piece, combining painting with tactile objects like leaves and buttons, is his tactile interpretation of the diverse textures found in nature.",
+    "dimensions": "1500x1500"
+  }
+]
+}
